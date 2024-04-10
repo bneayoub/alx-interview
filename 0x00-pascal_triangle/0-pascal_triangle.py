@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-'''
-Pascal's triangle.
+'''Pascal's triangle.
 '''
 def pascal_triangle(n):
-    '''
-    Create Pascal Triangle of a given integer.
+    '''Create Pascal Triangle of a given integer.
     '''
     triangle = []
     if type(n) is not int or n <= 0:
